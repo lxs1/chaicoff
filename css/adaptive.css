@@ -1,0 +1,27 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+#zag-footer{font-size: 18px;line-height: 1em;}
+    /* STYLES GO HERE */
+}
+
+
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    #zag-footer{font-size: 18px;line-height: 1em;}
+    /* STYLES GO HERE */
+}
+
+
+/* iPhone 6 s (portrait)----------- */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+    #zag-footer{font-size: 18px;line-height: 1em;}
+    /* STYLES GO HERE */
+}
